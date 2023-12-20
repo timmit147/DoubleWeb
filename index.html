@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Ontdek de wereld van creativiteit</title>
+</head>
+
+<body>
+
+
+  <header>
+    <h1 tabindex="0">Ontdek de wereld van <strong>creativiteit</strong></h1>
+    <img src="images/header.webp" alt="Header" draggable="false" />
+  </header>
+
+  <nav>
+    <ul>
+      <li><a class="current" href="#">Homepagina</a></li>
+      <li><a href="#">Schilderkunst</a></li>
+      <li><a href="#">Fotografie</a></li>
+      <li><a href="#">Creatief Schrijven</a></li>
+      <li><a href="#">Digitale Kunst</a></li>
+      <li><a class="nieuwsbrief-link" href="#">Nieuwsbrief</a></li>
+      <li><a class="events-link" href="#">Evenementen</a></li>
+
+
+    </ul>
+  </nav>
+
+  <aside class="hide">
+      <img class="close" src="images/close.webp" alt="Sluit icoon" draggable="false" tabindex="0" />
+      <h2>Evenementen</h2>
+      <a href="#">30-01-24 Dansimprovisatie</a>
+      <a href="#">01-04-24 Animatiecreatie</a>
+      <a href="#">14-02-24 Aquarelschilderen</a>
+      <a href="#">22-04-24 Graffiti Workshop</a>
+      <a href="#">27-05-24 Modeontwerp</a>
+      <a href="#">03-06-24 Poëzie Schrijven</a>
+      <a href="#">12-07-24 Keramiek</a>
+      <a href="#">14-08-24 Glasblazen</a>
+      <a href="#">16-09-24 Fotomanipulatie</a>
+      <a href="#">18-11-24 Beeldhouwen</a>
+      <a href="#">19-06-24 Culinaire Kunst</a>
+      <a href="#">05-09-24 Digitale Kunst</a>
+      <a href="#">08-11-24 Theaterproductie</a>
+      <a href="#">09-03-24 Creatief Schrijven</a>
+      <a href="#">10-12-24 Muziekcompositie</a>
+  </aside>
+  
+    <main>
+    <section class="articles">
+      <article tabindex="0">
+        <h2>De Kracht van Schilderkunst</h2>
+        <p>Verken de geschiedenis en impact van <strong>schilderkunst</strong> op de kunstwereld. Leer over beroemde
+          <strong>schilders</strong> en hun meesterwerken die de tand des tijds hebben doorstaan.</p>
+        <a href="#">Meer Schilderkunst</a>
+      </article>
+      <article tabindex="0">
+        <h2>Het Rijk van Fotografie</h2>
+        <p>Duik in de fascinerende wereld van <strong>fotografie</strong> en ontdek hoe beelden meer kunnen zeggen dan
+          woorden. Verken verschillende <strong>fotografietechnieken</strong> en leer hoe foto's emoties en verhalen
+          kunnen vastleggen.</p>
+        <a href="#">Meer fotografie</a>
+      </article>
+      <article tabindex="0">
+        <h2>De Magie van Creatief Schrijven</h2>
+        <p>Verken de kunst van creatief schrijven en hoe het de verbeelding kan stimuleren. Ontdek verschillende
+          <strong>schrijfstijlen</strong> en krijg inzicht in hoe woorden kunnen worden gebruikt om werelden te creëren.
+        </p>
+        <a href="#">Meer schrijven</a>
+      </article>
+      <article tabindex="0">
+        <h2>Innovatie door Digitale Kunst</h2>
+        <p>Ontdek de opkomst van <strong>digitale kunst</strong> en hoe technologie de artistieke expressie heeft
+          getransformeerd. Verken de diverse vormen van <strong>digitale kunst</strong>, van grafisch ontwerp tot digitale
+          schilderkunst.</p>
+        <a href="#">Meer digitale Kunst</a>
+      </article>
+    </section>
+
+    <section class="image-gallery">
+      <img src="images/paint.webp" data-full-image="images/paint-full.webp" alt="Paint" draggable="false" tabindex="0" />
+      <img src="images/architecture.webp" data-full-image="images/architecture-full.webp" alt="Photography Camera"
+        draggable="false" tabindex="0" />
+      <img src="images/nature.webp" data-full-image="images/nature-full.webp" alt="Nature" draggable="false" tabindex="0" />
+      <img src="images/digital-art.webp" data-full-image="images/digital-art-full.webp" alt="Digital art" draggable="false"
+        tabindex="0" />
+
+      <div class="full-image hide">
+        <img src="" alt="" draggable="false" />
+        <div class="controls">
+          <img src="images/angle.webp" alt="Vorige" draggable="false" tabindex="0" />
+          <p>0/4</p>
+          <img src="images/angle.webp" alt="Volgende" draggable="false" tabindex="0" />
+        </div>
+      </div>
+    </section>
+
+    <div class="nieuwsbrief hide">
+      <form autocomplete="on">
+        <img class="close" src="images/close.webp" alt="Sluit icoon" draggable="false" tabindex="0" />
+        <h2>Nieuwsbrief</h2>
+        <p>Krijg elke maand een creatief artikel via de mail.</p>
+
+        <label for="name">Naam:</label>
+        <input type="text" id="name" name="name" autocomplete="name">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" autocomplete="email">
+
+        <label for="address">Adres:</label>
+        <input type="text" id="address" name="address" autocomplete="street-address">
+
+        <input type="submit" value="Aanmelden">
+      </form>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
